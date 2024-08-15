@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,121 +8,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bionote</title>
-    <style>
-        body {  
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-            background-image: linear-gradient(to bottom, #000000, #363636, #6c6c6c, #a7a7a7, #e6e6e6);
-        
-        }
+    <link rel="stylesheet" href="styles.css">
 
-        .top-section {
-            position:relative;
-            height: 100%;
-            background: url('top bg-1.png') no-repeat center center/cover
-        }
-        .top-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(5, 13, 24, 0.70);
-        }
-
-        .top-content {
-            position: relative;
-            height: 100vh;
-            z-index: 1;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .sections-container {
-            display: flex;
-            height: 100vh;
-        }
-
-        .left-section,
-        .right-section {
-            width: 50%;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
-        .left-section {
-            background-color:  rgba(5, 13, 24, 1);
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .left-section .content {
-            width: 90%;
-            max-width: 600px;
-            background-color: #f5f5f5;
-            padding: 30px;
-            align-items: center;
-            border-radius: 20px;
-            box-shadow: 20px;
-        }
-
-        .right-section {
-            /* background-color: #f5f5f5; */
-            background-color: #f4f4f4;
-    background: repeating-linear-gradient( -45deg, #72737c, #72737c 12.5px, #f4f4f4 12.5px, #f4f4f4 62.5px );
-            display: flex;
-            align-items: center;
-            /* border-radius: 20px; */
-            justify-content: center;
-        }
-
-        .right-section .content {
-            width: 85%;
-            max-width: 600px;
-            background-color: #fff;
-            line-height: 1.35;
-            padding: 15px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-
-        .profile-pic {
-            width: 150px;
-            height: 150px;
-            background-color: #ccc;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-
-        .social-links img {
-            /* width: 24px;
-            height: 30px; */
-            margin: 0 5px;
-            align-items: center;
-        }
-
-        /* .footer{
-
-        } */
-    </style>
 </head>
 
 <body>
     <div class="top-section">
         <div class="top-content">
-            <img src="icon.png" height="50px" width="120px">       
-             <h1 style="font-family: system ui; font-size: 40px;">JOHN PAUL C. ASADON</h1>
-            <p style="font-size: 15px; font-family: Arial;">Bachelor of Science in Computer Engineering<br>
-                University of the East - Manila</p>
+            <img src="icon.png" height="50px" width="120px">  
+            <p>Bachelor of Science in Computer Engineering<br>
+                University of the East - Manila</p>      
+             <h2>Hello! I'm </h2>
+             <h1>  JOHN PAUL C. ASADON</h1>
+
         </div>
     </div>
     <div class="sections-container">
@@ -129,34 +30,50 @@
                     <div>
                         <img class="profile-pic" src="bionote img.png" height="150px" width="150px">
                     </div>
-                    <h2 style="color: #000;">JOHN PAUL C. ASADON</h2>
-                    <p style="color: #000;">Bachelor of Science in Computer Engineering</p>
-                    <div class="social-links">
+                    <h2 style="color: #000; margin: 2px;">JOHN PAUL C. ASADON</h2>
+                    <p style="color: #000; margin: 5px; margin-bottom: 8px;"><i>Bachelor of Science in Computer Engineering</i></p>
+                    <!-- <div class="social-links">
                         <a href="https://www.instagram.com/jp.asadon/"><img src="ig.png" width="30px" height="30px" alt="Instagram"></a>
                         <a href="https://x.com/idkkrealllyyy?t=Nxgfuk8yyjNJ076IogHYPw&s=09"><img src="x.png" width="30px" height="30px" alt="X"></a>
                         <a href="https://www.facebook.com/profile.php?id=100082509960393&mibextid=JRoKGi
                         "><img src="fb.png" width="30px" height="30px" alt="Facebook"></a>
                         <a href="https://www.tiktok.com/@ji.peeee?_t=8oVj8GSJMTE&_r=1"><img src="tiktok.png" width="30px" height="30px" alt="TikTok"></a>
                         <a href="https://www.linkedin.com/in/john-paul-asadon-a41352255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="linkedin.png" width="30px" height="30px" alt="LinkedIn"></a><br>
-                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHxjTVXcXHvVwVTpCPrcSkXrQNfngbRmRmxcKhsMLZSZRDjnmXfTGgJzHKsrvXZkPNGvqCV"><p style="font-style: italic; color: #000; font-size:small;"> asadon.johnpaul@ue.edu.ph</a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHxjTVXcXHvVwVTpCPrcSkXrQNfngbRmRmxcKhsMLZSZRDjnmXfTGgJzHKsrvXZkPNGvqCV"><p style="font-style: italic; color: #000; font-size:small; margin-top: 5px;"> asadon.johnpaul@ue.edu.ph</a>
 
-                    </div>
+                    </div> -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <p>Connect with me!</p>
+                          </div>
+                          <div class="flip-card-back">
+                            <a href="https://www.instagram.com/jp.asadon/"><img src="ig.png" width="30px" height="30px" alt="Instagram"></a>
+                        <a href="https://x.com/idkkrealllyyy?t=Nxgfuk8yyjNJ076IogHYPw&s=09"><img src="x.png" width="30px" height="30px" alt="X"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100082509960393&mibextid=JRoKGi
+                        "><img src="fb.png" width="30px" height="30px" alt="Facebook"></a>
+                        <a href="https://www.tiktok.com/@ji.peeee?_t=8oVj8GSJMTE&_r=1"><img src="tiktok.png" width="30px" height="30px" alt="TikTok"></a>
+                        <a href="https://www.linkedin.com/in/john-paul-asadon-a41352255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="linkedin.png" width="30px" height="30px" alt="LinkedIn" ></a>
+                        <!-- <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHxjTVXcXHvVwVTpCPrcSkXrQNfngbRmRmxcKhsMLZSZRDjnmXfTGgJzHKsrvXZkPNGvqCV"><p style="font-style: italic; color: #000; font-size:small; margin-top: 5px;"> asadon.johnpaul@ue.edu.ph</a> -->
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHxjTVXcXHvVwVTpCPrcSkXrQNfngbRmRmxcKhsMLZSZRDjnmXfTGgJzHKsrvXZkPNGvqCV"><img src="mail.png" width="30px" height="30px" alt="Email"></a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                     </center>
                     </div>
                     <div class="right-section">
                         <div class="content">
-                            <h2 style="text-align: center;">My Bionote</h2>
-                            <p style="text-align: justify;"><b>John Paul Asadon</b> is currently a <b>21-year-old</b> college student taking up <b>Bachelor
+                            <h2>My Bionote</h2>
+                            <p><b>John Paul Asadon</b> is currently a <b>21-year-old</b> college student taking up <b>Bachelor
                                 of Science in Computer Engineering</b> at the <b>University of the East</b>. He's currently residing in San Perfecto
                                 Street, Sampaloc, Manila, though he hails from the beautiful islands of <b><i>Visayas in Region VIII </i></b>,
-                                specifically, Llorente, Eastern Samar where he completed both his primary and secondary education in a
-                                Special Science Class section.</p>
-                            <p style="text-align: justify;">He chose to study computer engineering because he finds technology to be an
+                                specifically, Llorente, Eastern Samar where he completed both his primary and secondary education.</p>
+                            <p>He chose to study computer engineering because he finds technology to be an
                                 interesting field regarded to be an <u>ever-revolving field with no limit for knowledge and experience</u>. His
                                 current interest revolves around <b>computer networks</b> - specifically system administration - and <b>data
                                 engineering</b>.</p>
-                            <p style="text-align: justify;">He has experience working with various software and tools for development such
+                            <p>He has experience working with various software and tools for development such
                                 as <b>Python, Java, Kotlin, C++, PowerApps, Power Automate</b>, and also extends to <b>Network Configurations</b> with
                                 Cisco and <b>Shell Scripting</b> with Windows and Linux operating systems. Currently, he is expanding his expertise
                                 by learning <b> machine learning</b> and <b>web design and development</b> at his university.</p>
@@ -164,7 +81,6 @@
                         </div>
                     </div>
                     </div>
-                    
-                    </body>
+                </body>
                     
                     </html>
